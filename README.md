@@ -1,4 +1,4 @@
-Buy Now Pay Later (BNPL) Feature
+# Buy Now Pay Later (BNPL) Feature
 Overview
 This project implements a simple Buy Now Pay Later (BNPL) system for an e-commerce platform in Go. The system includes key functionalities such as inventory management, order placement with payment options, user credit tracking, and user blacklisting for defaulted payments.
 
@@ -18,7 +18,9 @@ Payment Management:
 - Users are blacklisted if they default on 3 orders. Blacklisted users cannot place further orders using BNPL.
 
 
-git clone https://github.com/GHATAK123/bnpl.git
-cd bnpl
+```git clone https://github.com/GHATAK123/bnpl.git```
 
-To Run : go run main.go
+
+```cd bnpl```
+
+To Run : ```go run main.go```
